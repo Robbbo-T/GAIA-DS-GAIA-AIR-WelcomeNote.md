@@ -161,10 +161,10 @@ Illustrates ESG data handling in GAIA AIR: collection, validation, blockchain st
 
 ```mermaid
 flowchart TD
-    classDef process fill=#f9f,stroke=#333,stroke-width=2px,color=#000,font-size=16px;
-    classDef decision fill=#bbf,stroke=#333,stroke-width=2px,color=#000,font-size=16px;
-    classDef storage fill=#ccf,stroke=#333,stroke-width=2px,color=#000,font-size=16px;
-    classDef report fill=#cfc,stroke=#333,stroke-width=2px,color=#000,font-size=16px;
+    classDef process fill:#f9f,stroke:#333,stroke-width:2px,color:#000,font-size:16px;
+    classDef decision fill:#bbf,stroke:#333,stroke-width:2px,color:#000,font-size:16px;
+    classDef storage fill:#ccf,stroke:#333,stroke-width:2px,color:#000,font-size:16px;
+    classDef report fill:#cfc,stroke:#333,stroke-width:2px,color:#000,font-size:16px;
 
     A[ESG Data Collection]:::process --> B[Data Validation]:::process
     B --> C{Valid Data?}:::decision
@@ -177,7 +177,7 @@ flowchart TD
     G --> J[Continuous Monitoring]:::process
     J --> F
 
-    classDef legend fill=#f0f0f0,stroke=#000,stroke-width=1px,color=#000,font-size=14px;
+    classDef legend fill:#f0f0f0,stroke:#000,stroke-width:1px,color:#000,font-size:14px;
     subgraph Legend
         L1[Process]:::process
         L2[Decision]:::decision
@@ -188,6 +188,7 @@ flowchart TD
     L2 -.-> C
     L3 -.-> D
     L4 -.-> H
+
 ```
 
 **Notes:**
