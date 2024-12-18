@@ -1,9 +1,3 @@
-Below is a revised version of the `BreadcrumbsGAIA-DS-GAIA-AIR-WelcomeNote.md` file. This version is fully in English, sets the text color to black in the Mermaid flowchart, and removes any unexpected Unicode characters. It also includes the Gantt diagram and ensures that the Mermaid code blocks are properly formatted and enclosed within triple backticks. The code and text have been cleaned up to avoid any parse errors.
-
----
-
-**File:** `BreadcrumbsGAIA-DS-GAIA-AIR-WelcomeNote.md`
-
 
 # GAIA DS: A Holistic and Sustainable Framework
 
